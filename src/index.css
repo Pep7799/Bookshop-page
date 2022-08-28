@@ -77,10 +77,10 @@ html {
   .moving-text h4 {
       
    
-    white-space: nowrap;
+    white-space: wrap;
     animation: none;
-    font-size: 15px;
-    width: 50vw;
+    font-size: 12px;
+    
 }
 }
 
@@ -208,7 +208,14 @@ html {
   
  
   
-  @media screen and (min-width: 640px) {
+ 
+  
+  @media screen and (min-width: 768px) {
+    .swiper-container {
+      width: 768px;
+    }
+  }
+  @media screen and (max-width: 640px) {
     .swiper-container {
       width: 640px;
     }
@@ -217,12 +224,6 @@ html {
       display: flex;
       flex-direction: column;
      }
-  }
-  
-  @media screen and (min-width: 768px) {
-    .swiper-container {
-      width: 768px;
-    }
   }
   
 
@@ -348,12 +349,12 @@ ul {
       color: #FFF;
       position: relative;
       background: #5429CE;
-      left: 150px;
+      left: 130px;
       top: 7px;
       font-size: 10px;
       padding: 6px 3px;
       border: none;
-      border-radius: 7px;
+      border-radius: 9px;
       
     }
     

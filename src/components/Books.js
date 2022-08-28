@@ -34,7 +34,7 @@ const Books = () => {
         },
       }}
 
-      spaceBetween={200}
+      spaceBetween={100}
       navigation
       pagination={{  hide: true, }}
 
