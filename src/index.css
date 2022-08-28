@@ -74,14 +74,13 @@ html {
   }
 
   
-  .moving-text h4 {
+  .moving-text > h4 {
       
    
-    white-space: wrap;
     animation: none;
     font-size: 12px;
-    text-align: left;
-    
+    padding: 0px;
+    margin: 0px;    
 }
 }
 
