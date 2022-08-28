@@ -18,11 +18,23 @@ const Books = () => {
     
     <h5>Available Books</h5>
 
-    <Swiper
+    <Swiper 
+      className = "swiper-container"  
       modules={[Navigation, Pagination, Scrollbar, A11y]}
+      breakpoints={{
+        // when window width is >= 640px
+        600: {
+          width: 640,
+          slidesPerView: 2,
+        },
+        // when window width is >= 768px
+        768: {
+          width: 768,
+          slidesPerView: 3,
+        },
+      }}
 
       spaceBetween={200}
-      slidesPerView={3}
       navigation
       pagination={{  hide: true, }}
 

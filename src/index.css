@@ -12,6 +12,17 @@ body {
 }
 
 
+html {
+  overflow-x: hidden;
+  }
+
+
+@media(max-width: 452px) {
+  body {
+      overflow-x: hidden;
+  }
+
+}
 
 .headers {
   display: flex;
@@ -189,6 +200,24 @@ body {
    .icon {
     margin: 15px 0px;
    }
+
+
+  
+ 
+  
+  @media screen and (min-width: 640px) {
+    .swiper-container {
+      width: 640px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .swiper-container {
+      width: 768px;
+    }
+  }
+  
+
 
    /*Contact*/
    
