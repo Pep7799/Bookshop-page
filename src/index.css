@@ -326,7 +326,7 @@ ul {
 
 @media screen and (max-width: 600px) {
   .contact {
-    height: 600px;
+    height: 700px;
     min-height: auto;
     background: black;
     color: #FFF;
@@ -349,7 +349,7 @@ ul {
     }
     .update button {
       color: #FFF;
-      position: relative;
+      position: fixed;
       background: #5429CE;
       left: 140px;
       top: 7px;
