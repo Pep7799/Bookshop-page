@@ -76,21 +76,14 @@ html {
   
   .moving-text h4 {
       
-    display: none;
+   
+    white-space: nowrap;
+    animation: none;
+    font-size: 15px;
+    width: 50vw;
+}
 }
 
-@keyframes floatText{
-  from {
-    left: 00%;
-  }
-
-  to {
-    /* left: auto; */
-    left: 50%;
-  }
-}
-
-}
 
 /*Home*/
 
@@ -219,6 +212,11 @@ html {
     .swiper-container {
       width: 640px;
     }
+
+    .about {
+      display: flex;
+      flex-direction: column;
+     }
   }
   
   @media screen and (min-width: 768px) {
@@ -334,13 +332,31 @@ ul {
     margin: 0px;
     }
 
+    .location {
+      margin: 1px 10px 1px 10px; 
+    }
+    
+
     .location2 {
       margin: 0px 0px 0px 0px ;
     }
 
     .update {
-      margin: 50px 10px 0px 60px ;
+      margin: 50px 10px 0px 10px ;
     }
+    .update button {
+      color: #FFF;
+      position: relative;
+      background: #5429CE;
+      left: 150px;
+      top: 7px;
+      font-size: 10px;
+      padding: 6px 3px;
+      border: none;
+      border-radius: 7px;
+      
+    }
+    
 }
 
 
