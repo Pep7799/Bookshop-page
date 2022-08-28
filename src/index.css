@@ -74,13 +74,23 @@ html {
   }
 
   
-  .moving-text > h4 {
+  .moving-text h4 {
       
    
     animation: none;
     font-size: 12px;
     padding: 0px;
     margin: 0px;    
+}
+@keyframes floatText{
+  from {
+    left: 00%;
+  }
+
+  to {
+    /* left: auto; */
+    left: 00%;
+  }
 }
 }
 
