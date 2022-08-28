@@ -7,6 +7,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: linear-gradient(257.59deg, #C8C5C5 16.64%, #FFFFFF 85.34%);
+  overflow-x: hidden;
 
 
 }
@@ -79,7 +80,7 @@ html {
     white-space: nowrap;
     animation: floatText 12s infinite reverse ease-in;
     font-size: 15px;
-    width: 50%;
+    width: 50vw;
 }
 
 @keyframes floatText{
@@ -334,6 +335,7 @@ ul {
     color: #FFF;
     display: flex;
     flex-direction: column;
+    margin: 0px;
     }
 
     .location2 {

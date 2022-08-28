@@ -23,13 +23,13 @@ const Header = () => {
     <div className='list-menu'>
       <ul className='unordered-lists'>
         <li className='items'>
-        <Link to="home" spy={true} smooth={true} offset={-100} duration={500}  onClick={closeMenu}>
+        <Link to="home" spy={true} smooth={true} offset={-100} duration={500}>
 
           HOME
           </Link>
         </li>
         <li className='items'>
-        <Link to="books" spy={true} smooth={true} offset={-130} duration={500}  onClick={closeMenu}>
+        <Link to="books" spy={true} smooth={true} offset={-130} duration={500}>
             AVAILABLE BOOKS
             </Link>
          
@@ -37,7 +37,7 @@ const Header = () => {
         
         
         <li className='items'>
-        <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}  onClick={closeMenu}>
+        <Link to="contact" spy={true} smooth={true} offset={-50} duration={500}>
 
           CONTACT
           </Link>
