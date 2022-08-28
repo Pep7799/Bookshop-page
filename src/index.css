@@ -78,21 +78,9 @@ html {
   .moving-text h4 {
       
    
-    animation: none;
-    font-size: 12px;
-    padding: 0px;
-    margin: 0px;    
+    display: none;   
 }
-@keyframes floatText{
-  from {
-    left: 00%;
-  }
 
-  to {
-    /* left: auto; */
-    left: 00%;
-  }
-}
 }
 
 
@@ -300,6 +288,9 @@ li {
   border-radius: 7px;
   
 }
+.update p {
+  display: none;
+}
 
 .update button:hover {
   cursor: pointer;
@@ -360,13 +351,16 @@ ul {
       color: #FFF;
       position: relative;
       background: #5429CE;
-      left: 130px;
+      left: 140px;
       top: 7px;
       font-size: 10px;
-      padding: 6px 3px;
+      padding: 6px 1px;
       border: none;
       border-radius: 9px;
       
+    }
+    .update p {
+      display: block;
     }
     
 }

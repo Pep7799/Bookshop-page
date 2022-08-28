@@ -30,7 +30,8 @@ const Contact = () => {
           <form action="">
           <input type="email" className='email-text' /> <span><button>SUBSCRIBE</button></span>
           </form>
-          <p>We don’t sell your email and spam</p>
+          <p>We deliver the books upon request. Kindly contact us via the contact page. <br />
+          You can also contact us for seminars or trainings </p>
         </div>
       </div>
 
