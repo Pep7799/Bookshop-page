@@ -76,11 +76,7 @@ html {
   
   .moving-text h4 {
       
-    position: absolute;
-    white-space: nowrap;
-    animation: floatText 12s infinite reverse ease-in;
-    font-size: 15px;
-    width: 50vw;
+    display: none;
 }
 
 @keyframes floatText{
