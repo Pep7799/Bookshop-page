@@ -6,9 +6,305 @@ body {
   overflow-x: hidden;
   padding: 0;
   box-sizing: border-box;
-  background-image: linear-gradient(257.59deg, #C8C5C5 16.64%, #FFFFFF 85.34%);
+  background: linear-gradient(257.59deg, #C8C5C5 16.64%, #FFFFFF 85.34%);
 
 
 }
 
+
+
+.headers {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+  h1 {
+    word-spacing: 10px;
+  }
+
+  .unordered-lists {
+    list-style: none;
+    display: flex;
+    margin: 0px 0px;
+  }
+
+  .items {
+    margin:0px 40px 0px 20px;
+    font-size: 16px;
+  }
+
+  .moving-text h4 {
+      
+        position: absolute;
+        white-space: nowrap;
+        animation: floatText 12s infinite reverse ease-in;
+    }
+
+
+    @keyframes floatText{
+  from {
+    left: 00%;
+  }
+
+  to {
+    /* left: auto; */
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 23px;
+    text-align: center;
+  }
+
+  
+  .moving-text h4 {
+      
+    position: absolute;
+    white-space: nowrap;
+    animation: floatText 12s infinite reverse ease-in;
+    font-size: 15px;
+}
+}
+
+/*Home*/
+
+
+.home {
+  color: #000;
+  height: 100px;
+  margin: 65px 0px 0px 0px;
+  
+  font-family: 'Poppins', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  h3{
+    font-size: 30px;
+    margin: 0px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+
+  }
+   
+  
+  .image-components {
+      display: flex;
+      flex-direction: row;
+      margin: 5px 0px 0px 0px;
+      max-width: 100%;
+      justify-content: center;
+    }
+
+    .image-components img {
+        width: 300px;
+        height: 300px;
+        margin:0px 50px 0px 40px;
+        
+    }
+   
+
+    .btnbtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+
+    }
+
+    .btnbtn button  {
+      background: #FFF;
+      color: #000;
+      border-radius: 3px;
+      
+      padding: 5px 0px 5px 10px;
+    }
+
+    .btnbtn button:hover {
+      cursor: pointer;
+    }
+
+    .btnbtn span {
+      background: #5429CE;
+      padding: 6px 9px 5px 6px;
+    }
+
+    @media screen and (max-width: 600px) {
+      h3{
+        font-size: 20px;
+        margin: 0px 20px 0px 5px;
+        display: flex;
+        justify-content: center;
+    
+      }
+      .book {
+        display: none;
+      }
+      .animated {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+    }
+
+/*Books*/
+
+  .books {
+    height: 630px;
+    min-height: auto;
+    margin:5px 0px 10px 0px;
+  }
+
+  h5 {
+    margin: 15px 10px;
+    font-size: 19px;
+    font-style: italic;
+   }
+
+  .imagesliders img {
+     
+      width: 258px;
+      height: 300px;
+      margin-bottom: 20px;
+     }
+   
+
+   .about {
+    display: flex;
+    flex-direction: row;
+   }
+
+   .icons-about {
+    flex-direction: column;
+    margin: 0px 0px 0px 10px;
+   }
+
+   .words {
+    margin: 0px 20px;
+   }
+
+   .icon {
+    margin: 15px 0px;
+   }
+
+   /*Contact*/
+   
+.contact {
+  height: 600px;
+  min-height: auto;
+  background: black;
+  color: #FFF;
+  display: flex;
+  flex-direction: row;
+  }
+
+ul {
+  list-style: none;
+  margin-top: 28px;
+  opacity: 1;
+
+}
+
+li {
+  margin: 8px 0px 120px 0px;
+  font-size: 15px;
+}
+
+.location {
+  margin: 1px 24px 1px 35px; 
+}
+
+.location p {
+  padding-left: 14px;
+}
+.location2 {
+  margin: 30px 0px 90px 0px ;
+}
+.locate {
+  color: #5429CE;
+  font-size: 20px;
+  margin-top: 24px;
+}
+
+.update {
+  margin: 50px 10px 0px 30px ;
+}
+
+.email-text {
+  padding: 8px 10px;
+  border-radius: 15px;
+  position: absolute;
+}
+
+.update button {
+  color: #FFF;
+  position: relative;
+  background: #5429CE;
+  left: 120px;
+  top: 7px;
+  font-size: 10px;
+  padding: 6px 3px;
+  border: none;
+  border-radius: 7px;
+  
+}
+
+.update button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+  .contact {
+    height: 600px;
+    min-height: auto;
+    background: black;
+    color: #FFF;
+    display: flex;
+    flex-direction: row-reverse;
+    }
+  
+ul {
+
+  display: none
+  ;
+
+}
+
+.location {
+  margin: 1px 10px 1px 50px; 
+}
+
+.location2 {
+  margin: 0px 0px 0px 0px ;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  .contact {
+    height: 600px;
+    min-height: auto;
+    background: black;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .location2 {
+      margin: 0px 0px 0px 0px ;
+    }
+
+    .update {
+      margin: 50px 10px 0px 60px ;
+    }
+}
+
+
+
+
+  
 
