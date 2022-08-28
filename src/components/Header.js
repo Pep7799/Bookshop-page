@@ -29,7 +29,7 @@ const Header = () => {
           </Link>
         </li>
         <li className='items'>
-        <Link to="books" spy={true} smooth={true} offset={-130} duration={700}  onClick={closeMenu}>
+        <Link to="books" spy={true} smooth={true} offset={-130} duration={500}  onClick={closeMenu}>
             AVAILABLE BOOKS
             </Link>
          
@@ -37,7 +37,7 @@ const Header = () => {
         
         
         <li className='items'>
-        <Link to="contact" spy={true} smooth={true} offset={-100} duration={700}  onClick={closeMenu}>
+        <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}  onClick={closeMenu}>
 
           CONTACT
           </Link>

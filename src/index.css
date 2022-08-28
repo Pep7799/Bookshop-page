@@ -79,7 +79,20 @@ html {
     white-space: nowrap;
     animation: floatText 12s infinite reverse ease-in;
     font-size: 15px;
+    width: 50%;
 }
+
+@keyframes floatText{
+  from {
+    left: 00%;
+  }
+
+  to {
+    /* left: auto; */
+    left: 50%;
+  }
+}
+
 }
 
 /*Home*/
