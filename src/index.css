@@ -349,7 +349,7 @@ ul {
     }
     .update button {
       color: #FFF;
-      position: fixed;
+      position: relative;
       background: #5429CE;
       left: 140px;
       top: 7px;
@@ -360,6 +360,7 @@ ul {
       
     }
     .update p {
+      margin-top: 20px;
       display: block;
     }
     
